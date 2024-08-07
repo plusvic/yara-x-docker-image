@@ -1,0 +1,9 @@
+yara-x/.github/**
+yara-x/site/**
+yara-x/target/**
+yara-x/go/**
+vt-protos/.github/**
+vt-protos/python/**
+vt-protos/python3/**
+vt-protos/go/**
+vt-protos/docker/**

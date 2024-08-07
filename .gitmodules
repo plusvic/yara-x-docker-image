@@ -1,0 +1,6 @@
+[submodule "yara-x"]
+	path = yara-x
+	url = https://github.com/VirusTotal/yara-x
+[submodule "vt-protos"]
+	path = vt-protos
+	url = https://github.com/VirusTotal/vt-protos

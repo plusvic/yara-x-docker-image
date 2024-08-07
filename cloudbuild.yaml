@@ -1,0 +1,7 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'us-docker.pkg.dev/virustotalcloud/yara-x/test', '-f', 'Dockerfile', '.' ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-docker.pkg.dev/virustotalcloud/yara-x/test']
+options:
+  machineType: 'N1_HIGHCPU_32'
